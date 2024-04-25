@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="#" method="post">
+        <input type=hidden name="sitio" value="www.desarrolloweb.com">
+<br>
+<fieldset>
+    <legend align="center">Datos personales</legend>
+        <label for="">Apellido:</label>
+        <input type="text" size="10" name="apellido" maxlength="10"> <br><br>
+        <label for="">Nombre:</label>
+        <input type="text" name="nombre" placeholder="Nombre" autocomplete="name"> <br><br>
+        <input type="text" name="nacionalidad" value="argentino" autofocus> <br><br>
+        <input type="email" name="email" autocomplete="email"> <br><br>
+        <input type="password" name="contrasenia"> <br><br>
+        <input type="url" name="url" id="url"> <br><br>
+        edad: <input type="number" name="edad" id="edad" min="1" max="120" step="2"> <br><br>
+        <input type="range" id="numero" name="numero"> <br><br>
+        <label for="anio">¿Cuál es tu año par favorito del siglo XXI?</label>
+        <br/> <br>
+        <input type="date" id="fechahora" name="fechahora"/> <br><br>
+        <select name="estacion">
+            <option>Primavera</option>
+            <option>Verano</option>
+            <option>Otoño</option>
+            <option>Invierno</option>
+        </select>
+        <br><br>
+            
+        <button>Enviar</button> <br>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Borrar">
+    </fieldset>
+    </form>
+    <!-- <form action="#" method="get">
+        <label for="anio">¿Cuál es tu año par favorito del siglo XXI?</label>
+        <br/>
+        <input type="range" id="anio" name="anio" min="2000" max="2018" step=
+        "2"/>
+        <span id="salida"></span><br/>
+        <input type="submit" value="Enviar"/>
+        </form>
+    <script>
+        var anio = document.getElementById("anio");
+        var salida = document.getElementById("salida");
+        salida.textContent = anio.value;
+        anio.oninput = function() {
+        salida.textContent = anio.value;
+        }
+    </script> -->
+</body>
+</html>
